@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="aufgabe01A_menu">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe01A_menu/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe01A_menu" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="web" name="aufgabe01B_formular">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe01B_formular/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe01B_formular" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe01B_formular/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="aufgabe01C_personenVerwaltung_v1">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="aufgabe01D_personenVerwaltung_v2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe01B_formular/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/aufgabe01B_formular/src/controller" />
+      <excludeFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src/model" />
+      <excludeFolder url="file://$MODULE_DIR$/src" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.16" level="application_server_libraries" />
+  </component>
+</module>
