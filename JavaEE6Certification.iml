@@ -9,7 +9,9 @@
         <webroots>
           <root url="file://$MODULE_DIR$/aufgabe01A_menu" relative="/" />
         </webroots>
-        <sourceRoots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe01B_formular/src" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="web" name="aufgabe01B_formular">
