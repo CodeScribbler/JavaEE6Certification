@@ -49,8 +49,8 @@ public class Person {
 
     @Override
     public int hashCode() {
-        int hash = 3;
-        hash = 41 * hash + Objects.hashCode(this.id);
+        int hash = 7;
+        hash = 83 * hash + Objects.hashCode(this.id);
         return hash;
     }
 
@@ -71,6 +71,8 @@ public class Person {
         }
         return true;
     }
+
+
 
     @Override
     public String toString() {

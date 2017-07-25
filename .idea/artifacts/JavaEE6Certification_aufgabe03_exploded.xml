@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEE6Certification:aufgabe03 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEE6Certification_aufgabe03_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEE6Certification/web/aufgabe03" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="JavaEE6Certification/web/aufgabe03" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

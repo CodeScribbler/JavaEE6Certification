@@ -7,23 +7,25 @@
 </head>
 <body>
 <jsp:include page="header.jsp" />
-
 <h1>Person anlegen</h1>
 
-<form action="pc" method="POST">
-    Vorname: <input name="firstname" /> <br/><br/>
-    Nachname: <input name="lastname" /> <br/><br/>
+<form action="FrontController" method="POST">
+    <table>
+        <tr>
+            <td>Vorname:</td>
+            <td><input type="text" name="firstname" required="true" /></td>
+        </tr>
+        <tr>
+            <td>Nachname:</td>
+            <td><input type="text" name="lastname" required="true"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Speichern" /></td>
+        </tr>
+    </table>
     <input type="hidden" name="todo" value="personSave" />
-    <input type="reset" value="Reset">
-    <input type="submit" value="Speichern" />
 </form>
 
-<%
-    String info = (String) request.getAttribute("info");
-    if (info != null) {
-        out.println("<hr/>");
-        out.println("<div style='color: green'>"+ info + "</div>");
-    }
-%>
+<jsp:include page="footer.jsp" />
 </body>
 </html>
