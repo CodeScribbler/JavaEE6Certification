@@ -9,9 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/aufgabe01A_menu" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/aufgabe01B_formular/src" />
-        </sourceRoots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="web" name="aufgabe01B_formular">
@@ -66,6 +64,19 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="web" name="aufgabe04A">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe04A/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe04A" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe04A/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -74,12 +85,13 @@
       <sourceFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe03/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe04/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01B_formular/src/controller" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src/model" />
       <excludeFolder url="file://$MODULE_DIR$/src" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.16" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.27" level="application_server_libraries" />
   </component>
 </module>

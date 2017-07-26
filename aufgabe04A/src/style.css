@@ -1,0 +1,11 @@
+
+.header {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: dashed;
+    padding: 5px;
+}
+
+.table, th, td {
+    border: 1px solid darkgreen;
+}
