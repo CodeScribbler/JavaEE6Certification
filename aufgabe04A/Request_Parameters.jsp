@@ -1,3 +1,4 @@
+<%@ page import="java.util.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -8,17 +9,18 @@
 <h1>Request Parameters</h1>
 <table class="table">
     <thead>
-        <tr>
-            <th id="c1">Name</th>
-            <th id="c2">Side</th>
-        <tr>
+    <tr>
+        <th>Parameter Name</th>
+        <th>Parameter Value</th>
+    <tr>
     </thead>
     <tbody>
-        <tr>
-            <td headers="c1">Greedo</td>
-            <td headers="c2">South</td>
-        </tr>
+    <tr>
+        <td> request.getParameter("name") </td>
+        <td><%  out.print("Hallo Herr "+request. getParameter("name")+"!");  %></td>
+    </tr>
     </tbody>
 </table>
 </body>
+
 </html>

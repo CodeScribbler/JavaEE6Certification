@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="src/style.css">
 <div class="header">
     <a href="index.jsp">Startseite</a> |
-    <a href="Request_Parameters.jsp">Request Parameters</a> |
+    <a href="Request_Parameters.jsp?name=Lejmi">Request Parameters</a> |
     <a href="Request_Headers.jsp">Request Headers</a> |
     <a href="Request_Attributes.jsp">Request Attributes</a> |
     <a href="Request_Methods.jsp">Request Methods</a> |
