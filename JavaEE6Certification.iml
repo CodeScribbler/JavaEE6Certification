@@ -77,6 +77,19 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="web" name="aufgabe04B_topicController">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe04B_topicController/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe04B_topicController" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe04B_topicController/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -87,8 +100,10 @@
       <sourceFolder url="file://$MODULE_DIR$/aufgabe03/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe04/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe04A/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe04B_topicController/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01B_formular/src/controller" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src/model" />
+      <excludeFolder url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/src/controller" />
       <excludeFolder url="file://$MODULE_DIR$/src" />
     </content>
     <orderEntry type="inheritedJdk" />
