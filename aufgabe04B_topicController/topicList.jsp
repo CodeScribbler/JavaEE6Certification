@@ -22,7 +22,8 @@
     </tr>
     <%
         for (String left : topic.getRows().keySet()) {
-            String right = (String) topic.getRows().get(left);%>
+            String right = (String) topic.getRows().get(left);
+    %>
     <tr>
         <td><%= left%></td>
         <td><%= right%></td>

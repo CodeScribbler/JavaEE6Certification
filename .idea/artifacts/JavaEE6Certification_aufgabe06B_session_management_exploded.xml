@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEE6Certification:aufgabe06B_session_management exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEE6Certification_aufgabe06B_session_management_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaEE6Certification/web/aufgabe06B_session_management" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="JavaEE6Certification/web/aufgabe06B_session_management" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

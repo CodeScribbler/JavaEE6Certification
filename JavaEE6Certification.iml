@@ -90,6 +90,30 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="web" name="aufgabe05B">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe05B/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe05B" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="web" name="aufgabe06B_session_management">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/aufgabe06B_session_management/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/aufgabe06B_session_management" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/aufgabe06B_session_management/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -101,9 +125,12 @@
       <sourceFolder url="file://$MODULE_DIR$/aufgabe04/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe04A/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aufgabe04B_topicController/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe05B/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/aufgabe06B_session_management/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01B_formular/src/controller" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01C_personenVerwaltung_v1/src/model" />
       <excludeFolder url="file://$MODULE_DIR$/aufgabe01D_personenVerwaltung_v2/src/controller" />
+      <excludeFolder url="file://$MODULE_DIR$/aufgabe04B_topicController/src/controller" />
       <excludeFolder url="file://$MODULE_DIR$/src" />
     </content>
     <orderEntry type="inheritedJdk" />
